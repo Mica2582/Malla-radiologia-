@@ -1,1 +1,69 @@
-{{REPLACE_WITH_MALLA_JSON}}
+{
+  "nombreCarrera": "Tecnicatura Superior en Radiología - IFSSA",
+  "asignaturas": [
+    {
+      "codigo": "RAD-101",
+      "nombre": "Anatomía I",
+      "anio": 1,
+      "cuatrimestre": 1,
+      "creditos": 5,
+      "correlativas": []
+    },
+    {
+      "codigo": "RAD-102",
+      "nombre": "Física Radiológica",
+      "anio": 1,
+      "cuatrimestre": 1,
+      "creditos": 4,
+      "correlativas": []
+    },
+    {
+      "codigo": "RAD-103",
+      "nombre": "Protección Radiológica",
+      "anio": 1,
+      "cuatrimestre": 2,
+      "creditos": 4,
+      "correlativas": ["RAD-102"]
+    },
+    {
+      "codigo": "RAD-104",
+      "nombre": "Anatomía II",
+      "anio": 1,
+      "cuatrimestre": 2,
+      "creditos": 5,
+      "correlativas": ["RAD-101"]
+    },
+    {
+      "codigo": "RAD-201",
+      "nombre": "Técnicas Radiológicas I",
+      "anio": 2,
+      "cuatrimestre": 1,
+      "creditos": 6,
+      "correlativas": ["RAD-104", "RAD-103"]
+    },
+    {
+      "codigo": "RAD-202",
+      "nombre": "Bioética y Deontología",
+      "anio": 2,
+      "cuatrimestre": 1,
+      "creditos": 3,
+      "correlativas": []
+    },
+    {
+      "codigo": "RAD-203",
+      "nombre": "Técnicas Radiológicas II",
+      "anio": 2,
+      "cuatrimestre": 2,
+      "creditos": 6,
+      "correlativas": ["RAD-201"]
+    },
+    {
+      "codigo": "RAD-204",
+      "nombre": "Práctica Profesional Supervisada",
+      "anio": 3,
+      "cuatrimestre": 1,
+      "creditos": 8,
+      "correlativas": ["RAD-203"]
+    }
+  ]
+}
