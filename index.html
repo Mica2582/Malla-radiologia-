@@ -10,7 +10,7 @@
       const response = await fetch('malla_rayito_compartida.json');
       const data = await response.json();
       window.localStorage.setItem('mallaInteractivaDatos', JSON.stringify(data));
-      window.location.href = "https://booterman98.github.io/malla-interactiva/";
+      window.location.href = "./app/index.html";
     }
     window.onload = init;
   </script>
